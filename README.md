@@ -1,0 +1,131 @@
+# jlpt-generated-mock-tests-collection
+
+A community collection of **JLPT mock papers** in the on-disk format used
+by [`jlpt-simulator`](https://github.com/luksgrin/jlpt-simulator). Each
+paper is a directory under `papers/` containing TOML for the questions
+and MP3s for the listening audio.
+
+The simulator's **📥 Import from GitHub** picker entry reads from a repo
+laid out exactly like this one, downloads the paper(s) you select, and
+makes them appear in the level picker on the next launch.
+
+---
+
+## Repository layout
+
+```
+jlpt-generated-mock-tests-collection/
+├── README.md
+└── papers/
+    └── <paper-id>/
+        ├── paper.toml             # metadata (level, title, year, …)
+        ├── vocab.toml             # 言語知識（文字・語彙)  — N3/N4/N5 only
+        ├── grammar_reading.toml   # 言語知識（文法）・読解 (or combined for N1/N2)
+        ├── listening.toml         # 聴解 — references audio tracks by stem name
+        └── audio/
+            └── *.mp3              # one file per audio_track stem in listening.toml
+```
+
+The directory name (`<paper-id>`) is the canonical id used by the
+simulator — pick something stable and human-readable, e.g.
+`n4-generated-20260428-052549`, `n3-koushiki-2018`, or `n2-reddit-2024-q3`.
+
+A typical N4 paper (~70 questions text + 28 listening clips with audio)
+is around 3–4 MB. Plain Git handles this fine. If you're contributing
+papers with very long passages or many high-bitrate audio clips, consider
+[Git LFS](https://git-lfs.github.com/) for the `audio/` directory.
+
+---
+
+## Adding your own paper
+
+There are two normal ways to get a paper into the format:
+
+### 1. Generate one with `jlpt-simulator` and contribute it
+
+The simulator's **✨ Generate** flow already writes papers to your local
+user-data dir in this exact format:
+
+| OS | Path |
+|----|------|
+| macOS | `~/Library/Application Support/dev.JlptSimulator.jlpt-simulator/papers/<id>/` |
+| Linux | `~/.local/share/jlpt-simulator/papers/<id>/` |
+| Windows | `%APPDATA%\dev\JlptSimulator\jlpt-simulator\data\papers\<id>\` |
+
+Copy the directory from there into `papers/<id>/` here, commit, push.
+
+### 2. Hand-craft from a real / scraped exam
+
+Each section's TOML schema is documented in the simulator's
+[main README](https://github.com/luksgrin/jlpt-simulator#data-format).
+At minimum you need:
+
+- `paper.toml`: `id`, `title`, `level` (`N1`–`N5`), `audio_dir = "audio"`.
+- `grammar_reading.toml`: `section_name`, `duration_minutes`, `default_domain`, `[[problems]]` blocks with 1-indexed answers in 1..=options.len().
+- `listening.toml`: same shape plus `intro_track` / `example_track` / per-question `audio_track` fields referring to MP3 files in `audio/<track>.mp3`.
+- `vocab.toml`: omit for N1/N2, required for N3/N4/N5.
+- `audio/*.mp3`: any MP3 the simulator's `rodio` decoder can play (24 kHz mono is what Edge TTS produces and what the bundled official paper uses).
+
+Validation invariants the simulator's test suite enforces (so your paper
+should respect them too):
+
+1. Every `answer` is in `1..=options.len()`.
+2. Every `audio_track` / `intro_track` / `example_track` resolves to an
+   actual MP3 in the `audio/` dir.
+3. Listening question `id`s are 1-indexed and continue across the section.
+
+---
+
+## How the simulator imports
+
+When you select **📥 Import from GitHub** in the simulator's paper
+picker, you'll be asked for a repo identifier. Either form works:
+
+```
+luksgrin/jlpt-generated-mock-tests-collection
+https://github.com/luksgrin/jlpt-generated-mock-tests-collection
+```
+
+(Branch defaults to `main`. Specify another with the `@branch` suffix:
+`owner/repo@dev`.)
+
+The simulator then:
+
+1. Calls the GitHub Contents API to list `papers/`.
+2. Shows the available paper ids — you pick one (or several).
+3. Downloads each file via its raw URL into a staging directory.
+4. Atomically renames the staging dir into your local papers dir.
+5. The next picker iteration picks it up automatically.
+
+Public repos work without authentication — though you'll be limited to
+60 GitHub API requests per hour, which is enough for ~1 paper. If you're
+importing in bulk or hitting the limit, paste a [GitHub PAT](https://github.com/settings/tokens)
+into the simulator's keyring entry (see the main README's *Configuration*
+section).
+
+If a paper id already exists locally, the simulator prompts before
+overwriting.
+
+---
+
+## Contributing
+
+1. Fork this repo.
+2. Drop your paper directory under `papers/<id>/`.
+3. Verify it loads by running the simulator with the directory copied
+   into your local user-data dir, taking the exam, and confirming all
+   audio tracks play.
+4. Open a PR.
+
+Calibration caveat: the simulator's IRT scoring uses heuristic
+b-values derived from paper layout (大問 position), not real calibration
+data. Contributing a paper here doesn't change that — it's a self-study
+indicator, not an official equated score.
+
+---
+
+## Bundled paper(s)
+
+| Id | Level | Source | Notes |
+|----|------:|--------|-------|
+| `n4-generated-20260428-052549` | N4 | Generated by jlpt-simulator (Gemini 2.5 Flash + Edge TTS) | 5 vocab + 6 grammar/reading 大問 + 4 listening 大問. ~3.5 MB total. |

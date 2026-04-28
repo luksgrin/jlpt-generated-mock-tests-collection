@@ -1,0 +1,431 @@
+section_name = "言語知識（文法）・読解"
+duration_minutes = 60
+default_domain = "grammar"
+
+[[problems]]
+title = "もんだい１ 文の文法１"
+instruction = "（　　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。"
+
+[[problems.questions]]
+id = 1
+sentence = "先生は学生に日本語の歌を（　　　）。"
+options = [
+    "歌わせました",
+    "歌われました",
+    "歌いました",
+    "歌います",
+]
+answer = 1
+
+[[problems.questions]]
+id = 2
+sentence = "昨日、駅で知らない人に道を（　　　）。"
+options = [
+    "聞かせました",
+    "聞かれました",
+    "聞きました",
+    "聞きました",
+]
+answer = 2
+
+[[problems.questions]]
+id = 3
+sentence = "この本は漢字が多くて、とても（　　　）。"
+options = [
+    "読みにくいです",
+    "読みやすいです",
+    "読みません",
+    "読みたくないです",
+]
+answer = 1
+
+[[problems.questions]]
+id = 4
+sentence = "音楽を（　　　）勉強するのは難しいです。"
+options = [
+    "聞きながら",
+    "聞いたから",
+    "聞いても",
+    "聞けば",
+]
+answer = 1
+
+[[problems.questions]]
+id = 5
+sentence = "私はまだ一度も外国へ（　　　）。"
+options = [
+    "行ったことがありません",
+    "行きません",
+    "行きたいです",
+    "行くでしょう",
+]
+answer = 1
+
+[[problems.questions]]
+id = 6
+sentence = "明日は雨が（　　　）。"
+options = [
+    "降るかもしれません",
+    "降ります",
+    "降りたいです",
+    "降るでしょう",
+]
+answer = 1
+
+[[problems.questions]]
+id = 7
+sentence = "もし日本へ（　　　）、京都へ行きたいです。"
+options = [
+    "行くなら",
+    "行っても",
+    "行けば",
+    "行ったり",
+]
+answer = 1
+
+[[problems.questions]]
+id = 8
+sentence = "よく（　　　）、日本語が上手になりますよ。"
+options = [
+    "練習すれば",
+    "練習しても",
+    "練習したり",
+    "練習しながら",
+]
+answer = 1
+
+[[problems.questions]]
+id = 9
+sentence = "宿題が（　　　）、遊びに行きましょう。"
+options = [
+    "終わったら",
+    "終わっても",
+    "終わるなら",
+    "終われば",
+]
+answer = 1
+
+[[problems.questions]]
+id = 10
+sentence = "たくさん食べ（　　　）、お腹がいっぱいになりません。"
+options = [
+    "ても",
+    "たら",
+    "なら",
+    "ば",
+]
+answer = 1
+
+[[problems.questions]]
+id = 11
+sentence = "これは私にとって大切な思い出（　　　）写真です。"
+options = [
+    "という",
+    "から",
+    "ので",
+    "でも",
+]
+answer = 1
+
+[[problems.questions]]
+id = 12
+sentence = "あの店はいつも人が多いから、きっと（　　　）。"
+options = [
+    "美味しいらしいです",
+    "美味しかったです",
+    "美味しいでしょう",
+    "美味しいそうです",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい２ 文の文法２"
+instruction = "★に入る最もよいものを、１・２・３・４から一つ選びなさい。"
+
+[[problems.questions]]
+id = 13
+sentence = "この　本は　とても　おもしろいと　★　います。"
+options = [
+    "私は",
+    "思って",
+    "読んで",
+    "から",
+]
+answer = 2
+
+[[problems.questions]]
+id = 14
+sentence = "電車が　遅れて　いますから　★　でしょう。"
+options = [
+    "間に合わない",
+    "会社に",
+    "かもしれません",
+    "早く",
+]
+answer = 3
+
+[[problems.questions]]
+id = 15
+sentence = "もし　時間があれば、★　行きたいです。"
+options = [
+    "来月",
+    "北海道へ",
+    "私は",
+    "飛行機で",
+]
+answer = 2
+
+[[problems.questions]]
+id = 16
+sentence = "毎日　日本語を　★　上手になりますよ。"
+options = [
+    "練習すれば",
+    "話すのが",
+    "もっと",
+    "たくさん",
+]
+answer = 1
+
+[[problems.questions]]
+id = 17
+sentence = "私は　★　犬を　飼っています。"
+options = [
+    "小さい",
+    "友達が",
+    "くれた",
+    "という",
+]
+answer = 3
+
+[[problems.questions]]
+id = 18
+sentence = "この　パソコンは　少し　★　です。"
+options = [
+    "使いにくい",
+    "使うなら",
+    "使いません",
+    "使いたい",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい３ 文章の文法"
+instruction = "次の文章を読んで、１・２・３・４から最もよいものを一つ選びなさい。"
+passage = "私は先週、初めて日本の温泉に行きました。温泉はとても気持ちが（１）★。いろいろな温泉に（２）★、体がとても暖かくなりました。温泉の中には、景色が美しい（３）★ところもあって、本当に楽しかったです。また、温泉の近くのレストランで、美味しい日本料理を（４）★。来年もまた行きたいと（５）★います。"
+
+[[problems.questions]]
+id = 19
+sentence = "（１）"
+options = [
+    "よかったです",
+    "よかったらしいです",
+    "よかったでしょう",
+    "よかったそうです",
+]
+answer = 1
+
+[[problems.questions]]
+id = 20
+sentence = "（２）"
+options = [
+    "入りながら",
+    "入っても",
+    "入るなら",
+    "入ったことが",
+]
+answer = 1
+
+[[problems.questions]]
+id = 21
+sentence = "（３）"
+options = [
+    "という",
+    "ので",
+    "から",
+    "でも",
+]
+answer = 1
+
+[[problems.questions]]
+id = 22
+sentence = "（４）"
+options = [
+    "食べさせられました",
+    "食べられました",
+    "食べました",
+    "食べさせました",
+]
+answer = 3
+
+[[problems.questions]]
+id = 23
+sentence = "（５）"
+options = [
+    "思って",
+    "思えば",
+    "思ったら",
+    "思っても",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい４ 内容理解（短文）"
+instruction = "次の文章を読んで、質問に答えなさい。答えは１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 24
+sentence = "田中さんは会社まで何で通っていますか。"
+options = [
+    "車",
+    "バス",
+    "自転車",
+    "電車",
+]
+answer = 4
+
+[[problems]]
+title = "もんだい４ 内容理解（短文）"
+instruction = "次の文章を読んで、質問に答えなさい。答えは１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 25
+sentence = "この人は何が大変だったと言っていますか。"
+options = [
+    "天気",
+    "景色",
+    "山道",
+    "友達",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい４ 内容理解（短文）"
+instruction = "次の文章を読んで、質問に答えなさい。答えは１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 26
+sentence = "このクラスは何を勉強するクラスですか。"
+options = [
+    "会話",
+    "文法",
+    "漢字",
+    "作文",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい４ 内容理解（短文）"
+instruction = "次の文章を読んで、質問に答えなさい。答えは１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 27
+sentence = "「クロ」はどんな猫ですか。"
+options = [
+    "白い猫",
+    "おとなしい猫",
+    "元気な猫",
+    "遊ばない猫",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい５ 内容理解（中文）"
+instruction = "次の文章を読んで、質問に答えなさい。答えは１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 28
+sentence = "この人の趣味は何ですか。"
+options = [
+    "イタリア旅行",
+    "カフェ巡り",
+    "料理",
+    "絵を描くこと",
+]
+answer = 3
+
+[[problems.questions]]
+id = 29
+sentence = "この人は先週何を作りましたか。"
+options = [
+    "日本料理",
+    "イタリア料理",
+    "フランス料理",
+    "中華料理",
+]
+answer = 2
+
+[[problems.questions]]
+id = 30
+sentence = "この人が考える「一番大切なこと」は何ですか。"
+options = [
+    "高級な材料を使うこと",
+    "レシピ通りに作ること",
+    "食べる人のことを考えて作ること",
+    "色々な国の料理を作ること",
+]
+answer = 3
+
+[[problems.questions]]
+id = 31
+sentence = "この人は将来何をしたいと思っていますか。"
+options = [
+    "有名なレストランで働くこと",
+    "料理学校の先生になること",
+    "小さなカフェを開くこと",
+    "料理の本を出すこと",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい６ 情報検索"
+instruction = "次の案内を読んで、質問に答えなさい。答えは１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 32
+sentence = "この図書館は何曜日の午後７時まで開いていますか。"
+options = [
+    "火曜日",
+    "水曜日",
+    "土曜日",
+    "日曜日",
+]
+answer = 1
+
+[[problems.questions]]
+id = 33
+sentence = "本を借りた人が、あと１週間長く借りたい時、どうすればいいですか。"
+options = [
+    "図書館に行かなければなりません",
+    "２回まで延長できます",
+    "インターネットか電話で手続きできます",
+    "延長することはできません",
+]
+answer = 3
+
+[[problems.questions]]
+id = 34
+sentence = "「世界の物語を読もう」というイベントについて、正しいものはどれですか。"
+options = [
+    "参加費がかかります",
+    "申し込みは必要ありません",
+    "１１月１５日の日曜日にあります",
+    "ウェブサイトで申し込むことができます",
+]
+answer = 4
+
+[[problems.questions]]
+id = 35
+sentence = "この図書館は、１月１日は開いていますか。"
+options = [
+    "開いている",
+    "開いていない",
+    "日によって違う",
+    "イベントがあれば開いている",
+]
+answer = 2
