@@ -1,0 +1,311 @@
+section_name = "言語知識（文法）・読解"
+duration_minutes = 60
+default_domain = "grammar"
+
+[[problems]]
+title = "もんだい1 文の文法1"
+instruction = "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。"
+
+[[problems.questions]]
+id = 1
+sentence = "この本は、子ども（　　）も読めます。"
+options = [
+    "たち",
+    "だけ",
+    "でも",
+    "から",
+]
+answer = 3
+
+[[problems.questions]]
+id = 2
+sentence = "仕事が忙しい（　　）、毎日残業しています。"
+options = [
+    "ので",
+    "から",
+    "ても",
+    "なら",
+]
+answer = 1
+
+[[problems.questions]]
+id = 3
+sentence = "明日の天気は雨（　　）です。"
+options = [
+    "らしい",
+    "そう",
+    "よう",
+    "みたい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 4
+sentence = "あの店のラーメンは、安くて（　　）です。"
+options = [
+    "食べやすい",
+    "食べにくい",
+    "食べるそう",
+    "食べられる",
+]
+answer = 1
+
+[[problems.questions]]
+id = 5
+sentence = "小さい時、よく母に「早く寝なさい」と（　　）。"
+options = [
+    "言いました",
+    "言われました",
+    "言いましたら",
+    "言わせました",
+]
+answer = 2
+
+[[problems.questions]]
+id = 6
+sentence = "日本語のニュースが、少し（　　）なりました。"
+options = [
+    "聞くことが",
+    "聞けるように",
+    "聞かせるように",
+    "聞くために",
+]
+answer = 2
+
+[[problems.questions]]
+id = 7
+sentence = "日本の大学に留学する（　　）、日本語をもっと勉強しなければなりません。"
+options = [
+    "なら",
+    "ても",
+    "ながら",
+    "とき",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい2 文の文法2"
+instruction = "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。"
+
+[[problems.questions]]
+id = 8
+sentence = "私は、子どもの時、よく母に ★ ました。"
+options = [
+    "公園で",
+    "遊ばせて",
+    "友達と",
+    "くれ",
+]
+answer = 2
+
+[[problems.questions]]
+id = 9
+sentence = "このパソコンは、古くて ★ にくいです。"
+options = [
+    "使い",
+    "から",
+    "とても",
+    "新しい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 10
+sentence = "田中さんは、明日の会議に ★ と言っていました。"
+options = [
+    "来ない",
+    "そう",
+    "思います",
+    "かもしれない",
+]
+answer = 1
+
+[[problems.questions]]
+id = 11
+sentence = "私は、音楽を ★ 料理をします。"
+options = [
+    "聞き",
+    "ながら",
+    "いつも",
+    "とても",
+]
+answer = 2
+
+[[problems.questions]]
+id = 12
+sentence = "もし、明日雨が ★ 家にいます。"
+options = [
+    "降ったら",
+    "ので",
+    "降る",
+    "降るなら",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい3 文章の文法"
+instruction = "次の文章を読んで、１・２・３・４から最もよいものを一つ選びなさい。"
+passage = "私は先週、初めて日本の温泉に行きました。温泉はとても広くて、きれいでした。いろいろな種類のお風呂が（13）から、全部入ってみました。一番好きだったのは露天風呂です。空を見（14）お風呂に入ることができて、とても気持ちよかったです。また、温泉の近くにはおいしい料理のお店がたくさん（15）ので、夜はそこで夕食を食べました。日本の温泉は本当に（16）ですね。また行きたいです。"
+
+[[problems.questions]]
+id = 13
+sentence = "（13）"
+options = [
+    "あった",
+    "ある",
+    "あったら",
+    "あるそう",
+]
+answer = 2
+
+[[problems.questions]]
+id = 14
+sentence = "（14）"
+options = [
+    "ながら",
+    "てから",
+    "てまで",
+    "てほしい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 15
+sentence = "（15）"
+options = [
+    "ありました",
+    "あった",
+    "ある",
+    "あります",
+]
+answer = 3
+
+[[problems.questions]]
+id = 16
+sentence = "（16）"
+options = [
+    "素晴らしい",
+    "素晴らしいです",
+    "素晴らしいそう",
+    "素晴らしいらしい",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい4 内容理解（短文）"
+instruction = "次の（１）から（３）の文章を読んで、質問に答えなさい。答えは、１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 17
+sentence = """
+質問:
+このメールは何について書かれていますか。"""
+options = [
+    "新しいアルバイトの募集について",
+    "来月の会議の予定について",
+    "会社の引越しについて",
+    "新しいパソコンの購入について",
+]
+answer = 3
+
+[[problems.questions]]
+id = 18
+sentence = """
+質問:
+田中さんはいつ山田さんの家に行きますか。"""
+options = [
+    "来週の日曜日",
+    "今週の土曜日",
+    "来週の土曜日",
+    "今週の日曜日",
+]
+answer = 3
+
+[[problems.questions]]
+id = 19
+sentence = """
+質問:
+このお知らせを読んだ人は、何をしなければなりませんか。"""
+options = [
+    "新しい図書館の本を借りる",
+    "図書館の場所を調べる",
+    "図書館に意見を言う",
+    "図書館で静かにする",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい5 内容理解（中文）"
+instruction = "次の文章を読んで、質問に答えなさい。答えは、１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 20
+sentence = """
+質問:
+この文章のテーマは何ですか。"""
+options = [
+    "日本の四季の移り変わり",
+    "日本の桜の美しさ",
+    "日本人の花見の楽しみ方",
+    "日本の文化と自然",
+]
+answer = 3
+
+[[problems.questions]]
+id = 21
+sentence = """
+質問:
+日本人はなぜ桜の下でパーティーをするのですか。"""
+options = [
+    "桜の花がとてもきれいだから",
+    "春の暖かい気候を楽しむため",
+    "家族や友人と楽しい時間を過ごすため",
+    "桜が特別な意味を持つから",
+]
+answer = 3
+
+[[problems.questions]]
+id = 22
+sentence = """
+質問:
+「桜前線」とは何を意味しますか。"""
+options = [
+    "桜の咲く季節の天気予報",
+    "桜が咲き始める時期の予想",
+    "桜の木が並んでいる道",
+    "桜の開花を知らせるニュース",
+]
+answer = 2
+
+[[problems]]
+title = "もんだい6 情報検索"
+instruction = "次の案内を読んで、質問に答えなさい。答えは、１・２・３・４から最もよいものを一つ選びなさい。"
+domain = "reading"
+
+[[problems.questions]]
+id = 23
+sentence = """
+質問:
+「世界の料理フェスティバル」はいつ開催されますか。"""
+options = [
+    "10月20日",
+    "10月21日",
+    "10月20日と21日",
+    "10月22日",
+]
+answer = 3
+
+[[problems.questions]]
+id = 24
+sentence = """
+質問:
+このイベントで、日本料理のブースはどこにありますか。"""
+options = [
+    "中央広場",
+    "東側のテント",
+    "西側のテント",
+    "案内所",
+]
+answer = 2

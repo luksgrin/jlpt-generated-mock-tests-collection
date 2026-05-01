@@ -1,0 +1,402 @@
+section_name = "言語知識（文字・語彙）"
+duration_minutes = 30
+default_domain = "vocab"
+
+[[problems]]
+title = "もんだい1 漢字読み"
+instruction = "下線が引いてある言葉の読み方として、最もよいものを、1・2・3・4から一つ選びなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 1
+sentence = "この[本]はとてもおもしろいです。"
+options = [
+    "もと",
+    "ほん",
+    "もとる",
+    "ほに",
+]
+answer = 2
+
+[[problems.questions]]
+id = 2
+sentence = "[私]は毎日、学校へ行きます。"
+options = [
+    "わたし",
+    "わたくし",
+    "わし",
+    "ぼく",
+]
+answer = 1
+
+[[problems.questions]]
+id = 3
+sentence = "[来年]、日本へ旅行に行きたいです。"
+options = [
+    "らいねん",
+    "きねん",
+    "こねん",
+    "まいねん",
+]
+answer = 1
+
+[[problems.questions]]
+id = 4
+sentence = "あの[店]はいつも人が多いです。"
+options = [
+    "たん",
+    "てん",
+    "みせ",
+    "まち",
+]
+answer = 3
+
+[[problems.questions]]
+id = 5
+sentence = "[駅]まで歩いて5分です。"
+options = [
+    "えき",
+    "えぎ",
+    "やき",
+    "やぎ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 6
+sentence = "今日は[天気]がいいですね。"
+options = [
+    "てんき",
+    "てんけい",
+    "でんき",
+    "でんけい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 7
+sentence = "新しい[靴]を買いました。"
+options = [
+    "くつ",
+    "くつう",
+    "かせ",
+    "かさ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 8
+sentence = "この[仕事]は大変ですが、楽しいです。"
+options = [
+    "しこと",
+    "しごと",
+    "じこと",
+    "じごと",
+]
+answer = 2
+
+[[problems.questions]]
+id = 9
+sentence = "部屋の[中]に猫がいます。"
+options = [
+    "うち",
+    "なか",
+    "うちゅう",
+    "ちゅう",
+]
+answer = 2
+
+[[problems.questions]]
+id = 10
+sentence = "[電気]を消してください。"
+options = [
+    "でんき",
+    "てんき",
+    "でんけい",
+    "てんけい",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい2 表記"
+instruction = "下線が引いてある言葉と、だいたい同じ意味の言葉を、1・2・3・4から一つ選びなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 11
+sentence = "この[きょうしつ]は広いです。"
+options = [
+    "教室",
+    "教室",
+    "教しつ",
+    "きょう室",
+]
+answer = 1
+
+[[problems.questions]]
+id = 12
+sentence = "まいにち[うんどう]しています。"
+options = [
+    "運どう",
+    "動運",
+    "運動",
+    "うん動",
+]
+answer = 3
+
+[[problems.questions]]
+id = 13
+sentence = "あの[おとこ]の人は誰ですか。"
+options = [
+    "男",
+    "夫",
+    "雄",
+    "漢",
+]
+answer = 1
+
+[[problems.questions]]
+id = 14
+sentence = "[あさ]ごはんを食べました。"
+options = [
+    "朝",
+    "旦",
+    "旭",
+    "早",
+]
+answer = 1
+
+[[problems.questions]]
+id = 15
+sentence = "とても[さむい]日です。"
+options = [
+    "寒い",
+    "寒イ",
+    "冷い",
+    "凍い",
+]
+answer = 1
+
+[[problems.questions]]
+id = 16
+sentence = "これは[ふるい]辞書です。"
+options = [
+    "古い",
+    "古イ",
+    "旧い",
+    "故い",
+]
+answer = 1
+
+[[problems.questions]]
+id = 17
+sentence = "[しんぶん]を読みます。"
+options = [
+    "新ぶん",
+    "新文",
+    "新聞",
+    "しん聞",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい3 文脈規定"
+instruction = "（）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 18
+sentence = "私は毎日、朝早く（）起きます。"
+options = [
+    "から",
+    "まで",
+    "に",
+    "で",
+]
+answer = 3
+
+[[problems.questions]]
+id = 19
+sentence = "このかばんは（）が軽いです。"
+options = [
+    "重さ",
+    "長さ",
+    "大きさ",
+    "高さ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 20
+sentence = "宿題が（）から、遊びに行きましょう。"
+options = [
+    "終わった",
+    "終わらない",
+    "終わる",
+    "終わっていた",
+]
+answer = 1
+
+[[problems.questions]]
+id = 21
+sentence = "私は（）の食べ物が好きです。"
+options = [
+    "甘い",
+    "低い",
+    "短い",
+    "近い",
+]
+answer = 1
+
+[[problems.questions]]
+id = 22
+sentence = "雨が降っていたので、（）をさして出かけました。"
+options = [
+    "傘",
+    "靴",
+    "帽子",
+    "眼鏡",
+]
+answer = 1
+
+[[problems.questions]]
+id = 23
+sentence = "会議は（）に終わりました。"
+options = [
+    "もう",
+    "まだ",
+    "すぐ",
+    "やっと",
+]
+answer = 4
+
+[[problems]]
+title = "もんだい4 言い換え類義"
+instruction = "下線が引いてある言葉と、だいたい同じ意味の言葉を、1・2・3・4から一つ選びなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 24
+sentence = "私は[いつも]朝食を食べます。"
+options = [
+    "たいてい",
+    "ぜんぶ",
+    "時々",
+    "ぜったい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 25
+sentence = "この部屋は[とても]きれいです。"
+options = [
+    "あまり",
+    "ずいぶん",
+    "少し",
+    "なかなか",
+]
+answer = 2
+
+[[problems.questions]]
+id = 26
+sentence = "テストが[終わった]ら、遊びに行こう。"
+options = [
+    "始まった",
+    "できた",
+    "済んだ",
+    "続いた",
+]
+answer = 3
+
+[[problems.questions]]
+id = 27
+sentence = "この仕事は[簡単]です。"
+options = [
+    "難しい",
+    "複雑",
+    "やさしい",
+    "厳しい",
+]
+answer = 3
+
+[[problems.questions]]
+id = 28
+sentence = "荷物を[運ぶ]のを手伝ってください。"
+options = [
+    "持つ",
+    "送る",
+    "届ける",
+    "動かす",
+]
+answer = 4
+
+[[problems]]
+title = "もんだい5 用法"
+instruction = "次の言葉と最も関係が深いものを、1・2・3・4から一つ選びなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 29
+sentence = "始まる"
+options = [
+    "授業はもう始まりました。",
+    "私は明日、新しい仕事を始まります。",
+    "映画を始める。",
+    "パーティーが始まる。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 30
+sentence = "役に立つ"
+options = [
+    "この本は勉強に役に立ちます。",
+    "私は先生の役に立ちたいです。",
+    "その道具は役に立ちませんでした。",
+    "彼はいつも人の役に立つ人です。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 31
+sentence = "残念"
+options = [
+    "テストに合格できなくて残念です。",
+    "残念なことに、雨が降っています。",
+    "そのニュースは残念でした。",
+    "残念な人ですね。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 32
+sentence = "確か"
+options = [
+    "彼は確か明日来ると言っていました。",
+    "確かな情報ですか。",
+    "確かめたいことがあります。",
+    "確かめることが大切です。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 33
+sentence = "ちょうど"
+options = [
+    "ちょうど今、家に着きました。",
+    "この服は私にちょうどいいです。",
+    "ちょうど彼はここにいました。",
+    "ちょうどその時、電話が鳴った。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 34
+sentence = "急に"
+options = [
+    "急に雨が降り始めました。",
+    "急に、彼は部屋を出て行った。",
+    "急に用事ができたので、帰ります。",
+    "急に、私は彼のことが好きになった。",
+]
+answer = 1

@@ -1,0 +1,397 @@
+section_name = "言語知識（文字・語彙）"
+duration_minutes = 30
+default_domain = "vocab"
+
+[[problems]]
+title = "もんだい1"
+instruction = "次の文の[ ]の言葉は、どう読みますか。1・2・3・4から一番いいものを一つ選びなさい。"
+
+[[problems.questions]]
+id = 1
+sentence = "この[公園]は、毎日たくさんの人が散歩しています。"
+options = [
+    "こうえん",
+    "こうえむ",
+    "こうえん",
+    "こうえむ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 2
+sentence = "部屋の[電気]を消して、寝ました。"
+options = [
+    "でんき",
+    "でいき",
+    "てんき",
+    "ていき",
+]
+answer = 1
+
+[[problems.questions]]
+id = 3
+sentence = "来週の[月曜日]は、テストがあります。"
+options = [
+    "げつようび",
+    "がつつようび",
+    "げつようひ",
+    "がつつようひ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 4
+sentence = "バスが[遅れて]いるので、少し待ちましょう。"
+options = [
+    "おくれて",
+    "おぐれて",
+    "おくって",
+    "おぐって",
+]
+answer = 1
+
+[[problems.questions]]
+id = 5
+sentence = "この[本]はとても面白いです。"
+options = [
+    "ほん",
+    "ぽん",
+    "ぼん",
+    "ほむ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 6
+sentence = "コーヒーを[一杯]ください。"
+options = [
+    "いっぱい",
+    "いっはい",
+    "いちはい",
+    "いちぱい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 7
+sentence = "あの[店]はいつも人が多いです。"
+options = [
+    "みせ",
+    "まち",
+    "みち",
+    "みえ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 8
+sentence = "朝ごはんを[作って]から、出かけます。"
+options = [
+    "つくって",
+    "つくて",
+    "つぐって",
+    "つぐて",
+]
+answer = 1
+
+[[problems.questions]]
+id = 9
+sentence = "日本の[文化]について勉強しています。"
+options = [
+    "ぶんか",
+    "ふんか",
+    "ぶか",
+    "ふか",
+]
+answer = 1
+
+[[problems.questions]]
+id = 10
+sentence = "来年の[夏]に旅行に行きたいです。"
+options = [
+    "なつ",
+    "はる",
+    "あき",
+    "ふゆ",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい2"
+instruction = "次の文の[ ]の言葉は、どう書きますか。1・2・3・4から一番いいものを一つ選びなさい。"
+
+[[problems.questions]]
+id = 11
+sentence = "この[まち]には、古いお寺がたくさんあります。"
+options = [
+    "町",
+    "町い",
+    "田",
+    "村",
+]
+answer = 1
+
+[[problems.questions]]
+id = 12
+sentence = "毎日[しんぶん]を読みます。"
+options = [
+    "新聞",
+    "新分",
+    "新問",
+    "心聞",
+]
+answer = 1
+
+[[problems.questions]]
+id = 13
+sentence = "これは[わたし]の辞書です。"
+options = [
+    "私",
+    "公",
+    "私し",
+    "和",
+]
+answer = 1
+
+[[problems.questions]]
+id = 14
+sentence = "今日は[てんき]がいいですね。"
+options = [
+    "天気",
+    "田気",
+    "天木",
+    "田木",
+]
+answer = 1
+
+[[problems.questions]]
+id = 15
+sentence = "兄は[かいしゃ]で働いています。"
+options = [
+    "会社",
+    "会し",
+    "会者",
+    "開社",
+]
+answer = 1
+
+[[problems.questions]]
+id = 16
+sentence = "この[みち]はいつも車が多いです。"
+options = [
+    "道",
+    "通",
+    "路",
+    "方",
+]
+answer = 1
+
+[[problems.questions]]
+id = 17
+sentence = "私は[がくせい]です。"
+options = [
+    "学生",
+    "学せい",
+    "学性",
+    "学世",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい3"
+instruction = "次の文の（ ）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+
+[[problems.questions]]
+id = 18
+sentence = "ドアが（ ）います。"
+options = [
+    "開いて",
+    "開けて",
+    "閉めて",
+    "閉まって",
+]
+answer = 1
+
+[[problems.questions]]
+id = 19
+sentence = "この本はとても（ ）です。"
+options = [
+    "面白い",
+    "面白いが",
+    "面白く",
+    "面白いに",
+]
+answer = 1
+
+[[problems.questions]]
+id = 20
+sentence = "今夜は（ ）が降るでしょう。"
+options = [
+    "雨",
+    "風",
+    "雪",
+    "空",
+]
+answer = 1
+
+[[problems.questions]]
+id = 21
+sentence = "私は来年、日本へ（ ）つもりです。"
+options = [
+    "行く",
+    "行くに",
+    "行くで",
+    "行くから",
+]
+answer = 1
+
+[[problems.questions]]
+id = 22
+sentence = "昨日、友達と（ ）に行きました。"
+options = [
+    "映画",
+    "映画に",
+    "映画へ",
+    "映画で",
+]
+answer = 1
+
+[[problems.questions]]
+id = 23
+sentence = "このケーキは（ ）作りやすいです。"
+options = [
+    "とても",
+    "あまり",
+    "全然",
+    "少しも",
+]
+answer = 1
+
+[[problems.questions]]
+id = 24
+sentence = "おなかが（ ）ので、何か食べたいです。"
+options = [
+    "すいた",
+    "いっぱい",
+    "のどが渇いた",
+    "眠い",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい4"
+instruction = "次の文の[ ]の言葉とだいたい同じ意味の文はどれですか。1・2・3・4から一番いいものを一つ選びなさい。"
+
+[[problems.questions]]
+id = 25
+sentence = "この仕事は[簡単]です。"
+options = [
+    "この仕事は易しいです。",
+    "この仕事は難しいです。",
+    "この仕事は複雑です。",
+    "この仕事は大変です。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 26
+sentence = "彼女は[いつも]元気です。"
+options = [
+    "彼女はたいてい元気です。",
+    "彼女は時々元気です。",
+    "彼女はめったに元気です。",
+    "彼女は決して元気ではありません。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 27
+sentence = "すみません、[ちょっと]手伝ってください。"
+options = [
+    "すみません、少し手伝ってください。",
+    "すみません、たくさん手伝ってください。",
+    "すみません、早く手伝ってください。",
+    "すみません、ゆっくり手伝ってください。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 28
+sentence = "この本は[面白い]ですよ。"
+options = [
+    "この本は楽しいですよ。",
+    "この本はつまらないですよ。",
+    "この本は難しいですよ。",
+    "この本は簡単ですよ。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 29
+sentence = "彼は[毎日]日本語を勉強しています。"
+options = [
+    "彼は一日中日本語を勉強しています。",
+    "彼は時々日本語を勉強しています。",
+    "彼は毎週日本語を勉強しています。",
+    "彼は毎月日本語を勉強しています。",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい5"
+instruction = "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。"
+
+[[problems.questions]]
+id = 30
+sentence = "始まる"
+options = [
+    "授業は9時に始まります。",
+    "私は授業を始めます。",
+    "授業が始めます。",
+    "彼は授業を始まる。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 31
+sentence = "終わる"
+options = [
+    "映画は10時に終わりました。",
+    "私は映画を終わりました。",
+    "映画を終わりました。",
+    "映画は彼を終わりました。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 32
+sentence = "集まる"
+options = [
+    "駅前に人が集まっています。",
+    "私が人を集まります。",
+    "人は駅前を集まります。",
+    "駅前で集まります。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 33
+sentence = "使う"
+options = [
+    "このペンを使ってください。",
+    "このペンが使います。",
+    "このペンで使います。",
+    "このペンを使いません。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 34
+sentence = "送る"
+options = [
+    "友達にメールを送りました。",
+    "友達がメールを送りました。",
+    "メールを送りました。",
+    "メールに友達を送りました。",
+]
+answer = 1

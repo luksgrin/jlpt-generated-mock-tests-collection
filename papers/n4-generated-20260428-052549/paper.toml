@@ -1,6 +1,0 @@
-id = "n4-generated-20260428-052549"
-title = "Generated N4 mock — 2026-04-28 05:25"
-level = "N4"
-source = "generated:gemini-2.5-flash+edge-tts"
-notes = "Auto-generated mock. Difficulty calibration is heuristic; treat scaled scores as a self-study indicator only."
-audio_dir = "audio"
