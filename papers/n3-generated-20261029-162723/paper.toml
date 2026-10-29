@@ -1,0 +1,6 @@
+id = "n3-generated-20261029-162723"
+title = "Generated N3 mock — 2026-10-29 16:27"
+level = "N3"
+source = "generated:claude-opus-5-5+edge-tts+review:claude-fable-5-1"
+notes = "Auto-generated mock. Difficulty calibration is heuristic; treat scaled scores as a self-study indicator only."
+audio_dir = "audio"
