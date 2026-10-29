@@ -1,0 +1,413 @@
+section_name = "言語知識（文字・語彙）"
+duration_minutes = 30
+default_domain = "vocab"
+
+[[problems]]
+title = "もんだい1"
+instruction = "＿＿＿のことばの読み方として最もよいものを、1・2・3・4から一つえらびなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 1
+sentence = "毎朝、[新聞]を読んでから会社へ行きます。"
+options = [
+    "しんぶ",
+    "しんぶん",
+    "しんもん",
+    "しんぷん",
+]
+answer = 2
+
+[[problems.questions]]
+id = 2
+sentence = "この川はとても[深い]ので、泳がないでください。"
+options = [
+    "あさい",
+    "ひくい",
+    "ふかい",
+    "こい",
+]
+answer = 3
+
+[[problems.questions]]
+id = 3
+sentence = "駅の近くで交通[事故]がありました。"
+options = [
+    "じこう",
+    "しこ",
+    "しご",
+    "じこ",
+]
+answer = 4
+
+[[problems.questions]]
+id = 4
+sentence = "弟は[将来]、医者になりたいそうだ。"
+options = [
+    "しょうらい",
+    "そうらい",
+    "しょらい",
+    "しょうれい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 5
+sentence = "荷物を[預けて]から、買い物に行きましょう。"
+options = [
+    "とどけて",
+    "あずけて",
+    "あつけて",
+    "たすけて",
+]
+answer = 2
+
+[[problems.questions]]
+id = 6
+sentence = "わたしは彼女の[意見]に賛成です。"
+options = [
+    "いげん",
+    "いかん",
+    "いけん",
+    "いっけん",
+]
+answer = 3
+
+[[problems.questions]]
+id = 7
+sentence = "テストの[結果]を先生に聞いた。"
+options = [
+    "けっか",
+    "けつか",
+    "けっが",
+    "けいか",
+]
+answer = 1
+
+[[problems.questions]]
+id = 8
+sentence = "今日は[昼間]からとても暑い。"
+options = [
+    "ちゅうかん",
+    "ひるあいだ",
+    "ちゅうま",
+    "ひるま",
+]
+answer = 4
+
+[[problems]]
+title = "もんだい2"
+instruction = "＿＿＿のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 9
+sentence = "毎日[れんしゅう]すれば、上手になります。"
+options = [
+    "練習",
+    "連習",
+    "練週",
+    "連週",
+]
+answer = 1
+
+[[problems.questions]]
+id = 10
+sentence = "この料理は[あじ]がうすい。"
+options = [
+    "未",
+    "味",
+    "末",
+    "妹",
+]
+answer = 2
+
+[[problems.questions]]
+id = 11
+sentence = "わからないことばを辞書で[しらべて]ください。"
+options = [
+    "周べて",
+    "検べて",
+    "調べて",
+    "査べて",
+]
+answer = 3
+
+[[problems.questions]]
+id = 12
+sentence = "このテストは思ったより[かんたん]だった。"
+options = [
+    "間単",
+    "簡短",
+    "間短",
+    "簡単",
+]
+answer = 4
+
+[[problems.questions]]
+id = 13
+sentence = "この話を田中さんにも[つたえて]ください。"
+options = [
+    "伝えて",
+    "云えて",
+    "転えて",
+    "仏えて",
+]
+answer = 1
+
+[[problems.questions]]
+id = 14
+sentence = "東京は[じんこう]がとても多い。"
+options = [
+    "人工",
+    "人口",
+    "入口",
+    "人校",
+]
+answer = 2
+
+[[problems]]
+title = "もんだい3"
+instruction = "（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 15
+sentence = "友だちとの約束を（　　）しまい、謝った。"
+options = [
+    "やぶって",
+    "こわして",
+    "おとして",
+    "なくして",
+]
+answer = 1
+
+[[problems.questions]]
+id = 16
+sentence = "この薬は苦いので、子どもが（　　）飲まない。"
+options = [
+    "ずいぶん",
+    "なかなか",
+    "かなり",
+    "もっと",
+]
+answer = 2
+
+[[problems.questions]]
+id = 17
+sentence = "部屋が暗いので、電気を（　　）ください。"
+options = [
+    "あけて",
+    "だして",
+    "つけて",
+    "おして",
+]
+answer = 3
+
+[[problems.questions]]
+id = 18
+sentence = "新しい仕事に（　　）まで、時間がかかった。"
+options = [
+    "なおる",
+    "まなぶ",
+    "かわる",
+    "なれる",
+]
+answer = 4
+
+[[problems.questions]]
+id = 19
+sentence = "試験に合格するために、毎日（　　）勉強している。"
+options = [
+    "ねっしんに",
+    "しんせつに",
+    "にぎやかに",
+    "おしゃれに",
+]
+answer = 1
+
+[[problems.questions]]
+id = 20
+sentence = "雨が降ってきたので、外の洗濯物を急いで（　　）。"
+options = [
+    "ほした",
+    "とりこんだ",
+    "ぬいだ",
+    "きた",
+]
+answer = 2
+
+[[problems.questions]]
+id = 21
+sentence = "この店はいつも客が多くて、（　　）いる。"
+options = [
+    "すいて",
+    "ひえて",
+    "こんで",
+    "あいて",
+]
+answer = 3
+
+[[problems.questions]]
+id = 22
+sentence = "彼は約束の時間を（　　）守ったことがない。"
+options = [
+    "いつも",
+    "たまに",
+    "よく",
+    "いちども",
+]
+answer = 4
+
+[[problems.questions]]
+id = 23
+sentence = "夏休みの旅行の（　　）を立てるのは楽しい。"
+options = [
+    "けいかく",
+    "けいさん",
+    "けんぶつ",
+    "けいけん",
+]
+answer = 1
+
+[[problems.questions]]
+id = 24
+sentence = "明日の会議で使う（　　）を、全員にメールで送った。"
+options = [
+    "ざいりょう",
+    "しりょう",
+    "げんりょう",
+    "しょくりょう",
+]
+answer = 2
+
+[[problems.questions]]
+id = 25
+sentence = "熱があるので、今日は学校を（　　）。"
+options = [
+    "やめます",
+    "おわります",
+    "やすみます",
+    "ぬけます",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい4"
+instruction = "＿＿＿に意味が最も近いものを、1・2・3・4から一つえらびなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 26
+sentence = "兄は日曜日は[たいてい]家にいる。"
+options = [
+    "ときどき",
+    "ほとんどいつも",
+    "たまに",
+    "ぜんぜん",
+]
+answer = 2
+
+[[problems.questions]]
+id = 27
+sentence = "一日中歩いたので、[くたくたになった]。"
+options = [
+    "とても疲れた",
+    "とても眠かった",
+    "とても楽しかった",
+    "とてもおなかがすいた",
+]
+answer = 1
+
+[[problems.questions]]
+id = 28
+sentence = "その話を聞いて、[びっくりした]。"
+options = [
+    "おこった",
+    "よろこんだ",
+    "おどろいた",
+    "かなしんだ",
+]
+answer = 3
+
+[[problems.questions]]
+id = 29
+sentence = "[会議は中止になった]。"
+options = [
+    "会議は場所が変わった",
+    "会議は時間が遅くなった",
+    "会議は早く終わった",
+    "会議はおこなわれなくなった",
+]
+answer = 4
+
+[[problems.questions]]
+id = 30
+sentence = "この料理を作るのは[簡単]だ。"
+options = [
+    "むずかしい",
+    "やさしい",
+    "めんどうだ",
+    "たのしい",
+]
+answer = 2
+
+[[problems]]
+title = "もんだい5"
+instruction = "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。"
+domain = "vocab"
+
+[[problems.questions]]
+id = 31
+sentence = "片付ける"
+options = [
+    "病気がやっと片付けて、元気になった。",
+    "毎朝、電車で会社に片付けている。",
+    "食事のあと、テーブルの上を片付けた。",
+    "雨が片付けたら、出かけましょう。",
+]
+answer = 3
+
+[[problems.questions]]
+id = 32
+sentence = "うっかり"
+options = [
+    "うっかりして、かさを電車に忘れてしまった。",
+    "うっかり勉強したので、試験に合格した。",
+    "今日はうっかり晴れて、気持ちがいい。",
+    "彼はうっかり背が高い。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 33
+sentence = "似合う"
+options = [
+    "兄と私は顔がよく似合っている。",
+    "彼の意見は私の意見とよく似合う。",
+    "急いだが、約束の時間に似合わなかった。",
+    "この赤いシャツは、あなたによく似合う。",
+]
+answer = 4
+
+[[problems.questions]]
+id = 34
+sentence = "渡す"
+options = [
+    "橋を渡して向こうへ行った。",
+    "この手紙を田中さんに渡してください。",
+    "雨がやんで、空が渡してきた。",
+    "道を渡してから右に曲がってください。",
+]
+answer = 2
+
+[[problems.questions]]
+id = 35
+sentence = "盛ん"
+options = [
+    "昨日は盛んで、よく眠れなかった。",
+    "このかばんは盛んなので、持ちにくい。",
+    "この町はサッカーが盛んで、子どもたちもよく練習している。",
+    "もっと盛んな声で話してください。",
+]
+answer = 3
