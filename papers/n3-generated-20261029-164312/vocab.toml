@@ -1,0 +1,423 @@
+section_name = "言語知識（文字・語彙）"
+duration_minutes = 30
+default_domain = "vocab"
+
+[[problems]]
+title = "もんだい1"
+instruction = "［　］のことばの読み方として最もよいものを、1・2・3・4から一つえらびなさい。"
+example = ""
+passage = ""
+domain = "vocab"
+
+[[problems.questions]]
+id = 1
+sentence = "祖父はこの町の[発展]のために力をつくした。"
+options = [
+    "はってん",
+    "はつてん",
+    "ほってん",
+    "はってい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 2
+sentence = "彼は100メートル走で新しい[記録]を出した。"
+options = [
+    "きりょく",
+    "きっろく",
+    "きろく",
+    "ぎろく",
+]
+answer = 3
+
+[[problems.questions]]
+id = 3
+sentence = "会議室を[移動]するので、資料を持ってきてください。"
+options = [
+    "いとう",
+    "いどう",
+    "いっどう",
+    "うつどう",
+]
+answer = 2
+
+[[problems.questions]]
+id = 4
+sentence = "兄は[希望]していた会社に入ることができた。"
+options = [
+    "きもう",
+    "きほう",
+    "ぎぼう",
+    "きぼう",
+]
+answer = 4
+
+[[problems.questions]]
+id = 5
+sentence = "この問題は話し合いで[解決]した。"
+options = [
+    "かいけつ",
+    "げけつ",
+    "かいげつ",
+    "かいけい",
+]
+answer = 1
+
+[[problems.questions]]
+id = 6
+sentence = "来年から新しい[制度]が始まるそうだ。"
+options = [
+    "せいと",
+    "せど",
+    "せいど",
+    "ぜいど",
+]
+answer = 3
+
+[[problems.questions]]
+id = 7
+sentence = "ホテルのフロントに荷物を[預けた]。"
+options = [
+    "あけた",
+    "あずけた",
+    "とどけた",
+    "さずけた",
+]
+answer = 2
+
+[[problems.questions]]
+id = 8
+sentence = "引き出しの中を[整理]したら、なくした鍵が出てきた。"
+options = [
+    "せいいり",
+    "ていり",
+    "せり",
+    "せいり",
+]
+answer = 4
+
+[[problems]]
+title = "もんだい2"
+instruction = "［　］のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。"
+example = ""
+passage = ""
+domain = "vocab"
+
+[[problems.questions]]
+id = 9
+sentence = "子どもの[せいちょう]は本当に早い。"
+options = [
+    "成長",
+    "成帳",
+    "生張",
+    "正長",
+]
+answer = 1
+
+[[problems.questions]]
+id = 10
+sentence = "調査の結果を部長に[ほうこく]した。"
+options = [
+    "報黒",
+    "宝告",
+    "報告",
+    "方告",
+]
+answer = 3
+
+[[problems.questions]]
+id = 11
+sentence = "田中さんに、会議の時間が変わったと[つたえて]ください。"
+options = [
+    "転えて",
+    "伝えて",
+    "任えて",
+    "位えて",
+]
+answer = 2
+
+[[problems.questions]]
+id = 12
+sentence = "この机は[ひょうめん]がつるつるしている。"
+options = [
+    "表麺",
+    "評面",
+    "票面",
+    "表面",
+]
+answer = 4
+
+[[problems.questions]]
+id = 13
+sentence = "飲み物を冷蔵庫で[ひやす]。"
+options = [
+    "冷やす",
+    "令やす",
+    "凍やす",
+    "涼やす",
+]
+answer = 1
+
+[[problems.questions]]
+id = 14
+sentence = "クラス[ぜんたい]で話し合って決めた。"
+options = [
+    "前体",
+    "全対",
+    "全体",
+    "前対",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい3"
+instruction = "（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。"
+example = ""
+passage = ""
+domain = "vocab"
+
+[[problems.questions]]
+id = 15
+sentence = "道がわからなかったので、地図で駅の場所を（　）した。"
+options = [
+    "想像",
+    "確認",
+    "記憶",
+    "期待",
+]
+answer = 2
+
+[[problems.questions]]
+id = 16
+sentence = "この薬は飲むとすぐに（　）が出る。"
+options = [
+    "効果",
+    "結果",
+    "原因",
+    "成功",
+]
+answer = 1
+
+[[problems.questions]]
+id = 17
+sentence = "大雨のため、今日の試合は（　）になった。"
+options = [
+    "禁止",
+    "反対",
+    "中止",
+    "失敗",
+]
+answer = 3
+
+[[problems.questions]]
+id = 18
+sentence = "彼女はいつも（　）笑っていて、みんなに好かれている。"
+options = [
+    "ぺらぺら",
+    "ばらばら",
+    "いらいら",
+    "にこにこ",
+]
+answer = 4
+
+[[problems.questions]]
+id = 19
+sentence = "引っ越しのために、本を段ボール箱に（　）。"
+options = [
+    "詰めた",
+    "積もった",
+    "組んだ",
+    "抜いた",
+]
+answer = 1
+
+[[problems.questions]]
+id = 20
+sentence = "スピーチの前はとても（　）して、声が震えてしまった。"
+options = [
+    "安心",
+    "緊張",
+    "感動",
+    "満足",
+]
+answer = 2
+
+[[problems.questions]]
+id = 21
+sentence = "このセーターはお湯で洗ったら、（　）小さくなってしまった。"
+options = [
+    "伸びて",
+    "溶けて",
+    "縮んで",
+    "曲がって",
+]
+answer = 3
+
+[[problems.questions]]
+id = 22
+sentence = "この店は値段が安いので、いつも客で（　）いる。"
+options = [
+    "混ざって",
+    "加わって",
+    "広がって",
+    "にぎわって",
+]
+answer = 4
+
+[[problems.questions]]
+id = 23
+sentence = "来週の会議で使う（　）を作って、メンバーに配った。"
+options = [
+    "資料",
+    "材料",
+    "記事",
+    "番組",
+]
+answer = 1
+
+[[problems.questions]]
+id = 24
+sentence = "この仕事は一人では無理なので、みんなで（　）しよう。"
+options = [
+    "競争",
+    "協力",
+    "選択",
+    "反省",
+]
+answer = 2
+
+[[problems.questions]]
+id = 25
+sentence = "寝坊したが、走ったので約束の時間に（　）間に合った。"
+options = [
+    "そろそろ",
+    "ますます",
+    "ぎりぎり",
+    "しっかり",
+]
+answer = 3
+
+[[problems]]
+title = "もんだい4"
+instruction = "［　］に意味が最も近いものを、1・2・3・4から一つえらびなさい。"
+example = ""
+passage = ""
+domain = "vocab"
+
+[[problems.questions]]
+id = 26
+sentence = "弟は出された料理を[たちまち]食べてしまった。"
+options = [
+    "しばらくして",
+    "あっという間に",
+    "ようやく",
+    "次第に",
+]
+answer = 2
+
+[[problems.questions]]
+id = 27
+sentence = "息子の部屋はいつも[散らかって]いる。"
+options = [
+    "片付いていない",
+    "暗い",
+    "狭い",
+    "静かだ",
+]
+answer = 1
+
+[[problems.questions]]
+id = 28
+sentence = "[おそらく]明日は雨が降るだろう。"
+options = [
+    "必ず",
+    "決して",
+    "たぶん",
+    "やっと",
+]
+answer = 3
+
+[[problems.questions]]
+id = 29
+sentence = "このレポートは[ミス]が多い。"
+options = [
+    "心配",
+    "質問",
+    "変更",
+    "間違い",
+]
+answer = 4
+
+[[problems.questions]]
+id = 30
+sentence = "一日中歩いたので、家に着いたときには[くたくた]だった。"
+options = [
+    "とても疲れていた",
+    "とても怒っていた",
+    "とても喜んでいた",
+    "とてもおなかがすいていた",
+]
+answer = 1
+
+[[problems]]
+title = "もんだい5"
+instruction = "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。"
+example = ""
+passage = ""
+domain = "vocab"
+
+[[problems.questions]]
+id = 31
+sentence = "延期"
+options = [
+    "電車が事故で30分延期して、駅に着いた。",
+    "髪が長くなったので、美容院で延期してもらった。",
+    "雨のため、運動会は来週に延期された。",
+    "時間が足りないので、休み時間を延期してください。",
+]
+answer = 3
+
+[[problems.questions]]
+id = 32
+sentence = "混乱"
+options = [
+    "スープに塩を混乱して、味を調えた。",
+    "急な予定の変更で、会場が混乱した。",
+    "風で髪が混乱して、まとまらない。",
+    "いろいろな色を混乱して、絵を描いた。",
+]
+answer = 2
+
+[[problems.questions]]
+id = 33
+sentence = "たまる"
+options = [
+    "雨が降ってきたので、早く家にたまった。",
+    "冬になると、気温がどんどんたまる。",
+    "出かける前に、電気をたまってください。",
+    "忙しくて、仕事がたまってしまった。",
+]
+answer = 4
+
+[[problems.questions]]
+id = 34
+sentence = "感心"
+options = [
+    "小さい子どもが一人で上手に挨拶できて、感心した。",
+    "かぜをひいて熱が出たので、とても感心した。",
+    "私は日本の歴史に感心があります。",
+    "明日の天気がどうなるか、感心している。",
+]
+answer = 1
+
+[[problems.questions]]
+id = 35
+sentence = "ぶつける"
+options = [
+    "電話で友達に今日のことをぶつけた。",
+    "料理に塩を少しぶつけて、味を見た。",
+    "机の角に足をぶつけて、とても痛い。",
+    "答えをノートにきれいにぶつけた。",
+]
+answer = 3
